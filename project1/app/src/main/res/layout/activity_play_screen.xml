@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="edu.miami.c10656908.project1.player_details_screen"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/Play_Screen_ImageView_Weight"
+            android:id="@+id/player1_imageView"
+            android:src="@drawable/smilyface"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/Play_Screen_FrameLayoutWeight"
+            android:gravity="center">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/player1_textView"
+                android:gravity="center"
+                android:visibility="invisible"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/player2_textView"
+                android:gravity="center"
+                android:visibility="visible"/>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/Play_Screen_ImageView_Weight"
+            android:id="@+id/player2_imageView"
+            android:src="@drawable/sadface"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/Play_Screen_ProgrsssBar_LinearLayout_Weight"
+        android:gravity="center">
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_width="@dimen/ProgressBar_Width"
+            android:layout_height="@dimen/ProgressBar_Height"
+            android:id="@+id/progressBar"
+            android:max="@integer/max_bar_time"></ProgressBar>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/Play_Screen_Table_LinearLayout_Weight"
+        android:gravity="center">
+
+      <TableLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center">
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              >
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_0_0"
+                  android:background="@drawable/gray"/>
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_1_0"
+                  android:background="@drawable/gray"/>
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_2_0"
+                  android:background="@drawable/gray"/>
+          </TableRow>
+
+          <TableRow
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              >
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_0_1"
+                  android:background="@drawable/gray"/>
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_1_1"
+                  android:background="@drawable/gray"/>
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_2_1"
+                  android:background="@drawable/gray"/>
+          </TableRow>
+          <TableRow
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              >
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:gravity="center"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_0_2"
+                  android:background="@drawable/gray"/>
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_1_2"
+                  android:background="@drawable/gray"/>
+              <ImageView
+                  android:layout_width="@dimen/Button_width_and_height"
+                  android:layout_height="@dimen/Button_width_and_height"
+                  android:layout_margin="@dimen/Button_margin"
+                  android:clickable="true"
+                  android:onClick="myPlayClickHandler"
+                  android:id="@+id/Button_2_2"
+                  android:background="@drawable/gray"/>
+          </TableRow>
+
+
+
+
+
+      </TableLayout>
+
+
+
+    </LinearLayout>
+
+
+    
+</LinearLayout>

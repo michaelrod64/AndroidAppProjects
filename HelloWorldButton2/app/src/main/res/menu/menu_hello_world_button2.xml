@@ -1,0 +1,24 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="edu.miami.c10656908.helloworldbutton2.HelloWorldButton2">
+
+        <item
+            android:id="@+id/hello_world_menu_item"
+            android:orderInCategory="100"
+            android:title="@string/hello_world_action"
+            app:showAsAction="never" />
+
+
+        <!--<item-->
+            <!--android:id="@+id/buzz_menu_item"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="@string/buzz_action"-->
+            <!--app:showAsAction="never" />-->
+        <!--<item-->
+            <!--android:id="@+id/popup_menu_item"-->
+            <!--android:orderInCategory="101"-->
+            <!--android:title="@string/popup_action"-->
+            <!--app:showAsAction="never" />-->
+    </menu>

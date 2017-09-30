@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">picturelist</string>
+    <string name="show_face">Show</string>
+    <string name="hide_face">Hide</string>
+    <string name="open_submenu">Selection</string>
+    <string name="Check_Happy">Happy</string>
+    <string name="Check_Sad">Sad</string>
+    <string name="Check_Crazy">Crazy</string>
+    <string name="Check_Angry">Angry</string>
+    <string name="Check_Crying">Crying</string>
+
+    <string name="context_menu_black">Black</string>
+    <string name="context_menu_red">Red</string>
+    <string name="context_menu_greeen">Green</string>
+
+</resources>

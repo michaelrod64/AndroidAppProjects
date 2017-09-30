@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <integer name="January">0</integer>
+    <integer name="February">1</integer>
+    <integer name="March">2</integer>
+    <integer name="April">3</integer>
+    <integer name="May">4</integer>
+    <integer name="June">5</integer>
+    <integer name="July">6</integer>
+    <integer name="August">7</integer>
+    <integer name="September">8</integer>
+    <integer name="October">9</integer>
+    <integer name="November">10</integer>
+    <integer name="December">11</integer>
+
+    <integer name="Minute">60000</integer>
+
+</resources>

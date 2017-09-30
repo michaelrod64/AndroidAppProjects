@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/dialog_imageview_weight"
+        android:layout_marginTop="@dimen/dialog_imageview_margin"
+        android:layout_marginBottom="@dimen/dialog_imageview_margin"
+        />
+    <Button
+        android:id="@+id/dialog_button"
+        android:layout_width="@dimen/dialog_button_width"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/dialog_button_weight"
+        android:layout_marginTop="@dimen/dialog_button_margin"
+        android:layout_marginBottom="@dimen/dialog_button_margin"
+        android:layout_gravity="center"
+        android:text="@string/dialog_dismiss_button"/>
+
+
+</LinearLayout>

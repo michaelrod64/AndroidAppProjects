@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="50">
+        <Button android:id="@+id/snap"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="Snap"
+            android:onClick="MyClickHandler">
+        </Button>
+        <Button android:id="@+id/exit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:clickable="true"
+            android:text="Exit"
+            android:onClick="MyClickHandler">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50">
+        <SurfaceView android:id="@+id/surface_camera"
+            android:layout_width="243.809524dp"
+            android:layout_height="182.857143dp"
+            android:visibility="invisible">
+            <!-- Insane, gravity doesn't do it -->
+        </SurfaceView>
+        <ImageView
+            android:id="@+id/taken_photo"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+    </LinearLayout>
+</LinearLayout>
+

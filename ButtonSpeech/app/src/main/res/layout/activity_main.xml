@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center_horizontal">
+        <Button android:id="@+id/the_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the man"
+            android:clickable="true"
+            android:onClick="myClickListener">
+        </Button>
+        <Button android:id="@+id/the_dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the dog"
+            android:clickable="true"
+            android:onClick="myClickListener">
+        </Button>
+        <Button android:id="@+id/the_farmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the farmer"
+            android:clickable="true"
+            android:onClick="myClickListener">
+        </Button>
+        <Button android:id="@+id/the_sailor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the sailor"
+            android:clickable="true"
+            android:onClick="myClickListener">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center_horizontal">
+
+        <Button android:id="@+id/bit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bit"
+            android:clickable="true"
+            android:onClick="myClickListener">
+        </Button>
+        <Button android:id="@+id/loves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="loves"
+            android:clickable="true"
+            android:onClick="myClickListener">
+        </Button>
+        <Button android:id="@+id/kills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="killed"
+            android:clickable="true"
+            android:onClick="myClickListener">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

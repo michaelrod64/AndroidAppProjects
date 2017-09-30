@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        android:id="@+id/two_button_fragment"
+        android:name="edu.miami.c10656908.fragments.TwoButtonFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_two_button">
+    </fragment>
+    <fragment
+        android:id="@+id/one_button_fragment"
+        android:name="edu.miami.c10656908.fragments.OneButtonFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_one_button">
+    </fragment>
+</LinearLayout>

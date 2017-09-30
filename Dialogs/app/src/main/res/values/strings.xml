@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dialogs</string>
+    <string name="button_label">Choose a TV Show</string>
+    <string name="list_dialog_title">Choose a TV Show</string>
+    <string name="picture_dialog_title">Heres your TV show!</string>
+    <string name="dismiss_button_label">Dismiss</string>
+
+    <string-array name="tv_shows">
+        <item>Deadliest Catch</item>
+        <item>Archer</item>
+        <item>Top Gear</item>
+        <item>M.A.S.H.</item>
+        <item>Two and a Half Men</item>
+    </string-array>
+    
+    <integer name="image_layout_weight">70</integer>
+    <integer name="dismiss_button_layout_weight">30</integer>
+</resources>

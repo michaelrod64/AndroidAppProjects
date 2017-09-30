@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/edit_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/edit_imageview_weight"/>
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/edit_edittext_weight"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/edit_button_linearlayout_weight"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/edit_record_button"
+            android:layout_width="@dimen/edit_button_size"
+            android:layout_height="@dimen/edit_button_size"
+            android:layout_margin="@dimen/edit_button_margin"
+            android:text="@string/edit_record_button"
+            android:onClick="myClickHandler"/>
+        <Button
+            android:id="@+id/edit_stop_button"
+            android:layout_width="@dimen/edit_button_size"
+            android:layout_height="@dimen/edit_button_size"
+            android:layout_margin="@dimen/edit_button_margin"
+            android:text="@string/edit_stop_button"
+            android:onClick="myClickHandler"/>
+        <Button
+            android:id="@+id/edit_clear_button"
+            android:layout_width="@dimen/edit_button_size"
+            android:layout_height="@dimen/edit_button_size"
+            android:layout_margin="@dimen/edit_button_margin"
+            android:text="@string/edit_clear_button"
+            android:onClick="myClickHandler"
+            />
+        <Button
+            android:id="@+id/edit_save_button"
+            android:layout_width="@dimen/edit_button_size"
+            android:layout_height="@dimen/edit_button_size"
+            android:layout_margin="@dimen/edit_button_margin"
+            android:text="@string/edit_save_button"
+            android:onClick="myClickHandler"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

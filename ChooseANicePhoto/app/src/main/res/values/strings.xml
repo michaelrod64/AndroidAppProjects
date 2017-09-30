@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ChooseANicePhoto</string>
+    <string name="like_the_photo">like</string>
+    <string name="dislike_the_photo">dislike</string>
+    <string name="like_toast_text">You like the photo!</string>
+</resources>

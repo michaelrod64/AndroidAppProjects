@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:descendantFocusability="blocksDescendants">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginLeft="@dimen/listview_imageview_marginleft"
+        android:layout_marginRight="@dimen/listview_imageview_marginright"
+        android:layout_gravity="left"
+        android:layout_width="@dimen/listview_row_height"
+        android:layout_height="@dimen/listview_row_height"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/note"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_width="@dimen/listview_textview_width"
+        android:layout_height="@dimen/listview_row_height"
+        android:textSize="@dimen/listview_textview_textsize"
+        android:maxLines="@integer/listview_textview_maxlines"
+        android:text="@string/textview_no_description">
+    </TextView>
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:clickable="false"
+        android:layout_gravity="right"
+        android:layout_width="@dimen/listview_row_height"
+        android:layout_height="@dimen/listview_row_height" />
+</LinearLayout>

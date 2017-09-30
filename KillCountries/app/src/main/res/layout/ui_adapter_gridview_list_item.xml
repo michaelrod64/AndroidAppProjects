@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/item_name"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:id="@+id/country_text"
+            android:visibility="visible"
+            android:onClick="myClickHandler"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/country_picture"
+            android:src="@drawable/new_smily"
+            android:visibility="invisible"
+            />
+
+    </FrameLayout>

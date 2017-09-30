@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/show_face"
+        android:orderInCategory="100"
+        android:title="@string/show_face"
+        />
+    <item
+        android:id="@+id/hide_face"
+        android:orderInCategory="101"
+        android:title="@string/hide_face"
+        />
+    <item android:id="@+id/open_submenu"
+        android:orderInCategory="102"
+        android:title="@string/open_submenu">
+        <menu android:id="@+id/submenu">
+            <group
+                android:checkableBehavior="all">
+
+                <item android:id="@+id/toggle_happy"
+                    android:title="@string/Check_Happy"
+                    android:checked="true"/>
+                <item android:id="@+id/toggle_sad"
+                    android:title="@string/Check_Sad"
+                    android:checked="true"/>
+                <item android:id="@+id/toggle_crazy"
+                    android:title="@string/Check_Crazy"
+                    android:checked="true"/>
+                <item android:id="@+id/toggle_angry"
+                    android:title="@string/Check_Angry"
+                    android:checked="true"/>
+                <item android:id="@+id/toggle_crying"
+                    android:title="@string/Check_Crying"
+                    android:checked="true"/>
+
+
+
+            </group>
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

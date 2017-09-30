@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">project1</string>
+    <string name="player_name_hint">Enter Name</string>
+    <string name="submit_button">Submit</string>
+    <string name="play_button">Play</string>
+    <string name="no_name_selected">No Name</string>
+    <string name="reset_menu_button">Reset</string>
+    <string name="one_second_menu_button">1 second</string>
+    <string name="two_second_menu_button">2 seconds</string>
+    <string name="five_second_menu_button">5 seconds</string>
+    <string name="ten_second_menu_button">10 seconds</string>
+
+
+    <integer name="default_star_rating">0</integer>
+    <integer name="number_of_stars">5</integer>
+    <integer name="max_bar_time">20000</integer>
+    <integer name="edit_text_max_lines">1</integer>
+    <integer name="TextView_max_lines">1</integer>
+
+    <integer name="Player_Details_Player_LinearLayout_Weight">20</integer>
+    <integer name="Player_Deatils_SubmitButton_LinearLayout_Weight">60</integer>
+    <integer name="Player_Details_EditText_Weight">70</integer>
+    <integer name="Player_Details_ImageView_Weight">30</integer>
+
+    <integer name="Scoring_Screen_Player_LinearLayout_Weight">20</integer>
+    <integer name="Scoring_Screen_RatingBar_LinearLayout_Weight">20</integer>
+    <integer name="Scoring_Screen_PlayButton_LinearLayout_Weight">50</integer>
+    <integer name="Scoring_Screen_TextView_Weight">70</integer>
+    <integer name="Scoring_Screen_ImageView_Weight">30</integer>
+
+    <integer name="Play_Screen_PlayerInfo_LinearLayout_Weight">10</integer>
+    <integer name="Play_Screen_ImageView_Weight">10</integer>
+    <integer name="Play_Screen_FrameLayoutWeight">50</integer>
+    <integer name="Play_Screen_ProgrsssBar_LinearLayout_Weight">10</integer>
+    <integer name="Play_Screen_Table_LinearLayout_Weight">80</integer>
+
+
+
+
+
+</resources>

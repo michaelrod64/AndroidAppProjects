@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mini App BTD</string>
+
+    <string name="buzz_action">Buzz</string>
+    <string name="popup_action">Popup</string>
+    <string name="toast_action">Toast</string>
+    <string name="button_press">Press</string>
+    <string name="hello_world_action">Run Hello World</string>
+    <string name="activity_name"></string>
+</resources>

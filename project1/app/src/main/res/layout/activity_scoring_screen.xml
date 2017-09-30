@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.miami.c10656908.project1.scoring_screen"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/Scoring_Screen_Player_LinearLayout_Weight"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:maxLines="@integer/TextView_max_lines"
+            android:textSize="@dimen/text_size"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/Scoring_Screen_TextView_Weight"
+            android:text="@string/no_name_selected"
+            android:id="@+id/player1_textview"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/Scoring_Screen_ImageView_Weight"
+            android:src="@drawable/smilyface"
+            android:id="@+id/player1_imageview"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/Scoring_Screen_RatingBar_LinearLayout_Weight"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:rating="@integer/default_star_rating"
+            android:numStars="@integer/number_of_stars"
+            android:id="@+id/player1_ratingbar"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/Scoring_Screen_Player_LinearLayout_Weight"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:maxLines="@integer/TextView_max_lines"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/Scoring_Screen_TextView_Weight"
+            android:textSize="@dimen/text_size"
+            android:text="@string/no_name_selected"
+            android:id="@+id/player2_textview"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="@integer/Scoring_Screen_ImageView_Weight"
+            android:src="@drawable/sadface"
+            android:id="@+id/player2_imageview"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/Scoring_Screen_RatingBar_LinearLayout_Weight"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:rating="@integer/default_star_rating"
+            android:numStars="@integer/number_of_stars"
+            android:id="@+id/player2_ratingbar"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/Scoring_Screen_PlayButton_LinearLayout_Weight"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="@dimen/Play_Button_Width"
+            android:layout_height="@dimen/Play_Button_Height"
+            android:gravity="center"
+            android:text="@string/play_button"
+            android:id="@+id/play_button"
+            android:onClick="myClickHandler"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+

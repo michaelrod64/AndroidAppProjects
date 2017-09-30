@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TalkingPicture</string>
+    <string name="edit_record_button">record</string>
+    <string name="edit_stop_button">stop</string>
+    <string name="edit_clear_button">clear</string>
+    <string name="edit_save_button">save</string>
+    <string name="dialog_dismiss_button">Dismiss</string>
+    <string name="textview_no_description">No description yet</string>
+    <string name="edittext_no_description">Describe it!</string>
+    
+</resources>

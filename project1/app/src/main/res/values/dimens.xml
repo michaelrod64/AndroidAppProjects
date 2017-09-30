@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="Submit_Button_Width">150dp</dimen>
+    <dimen name="Submit_Button_Height">150dp</dimen>
+    <dimen name="Play_Button_Height">150dp</dimen>
+    <dimen name="Play_Button_Width">150dp</dimen>
+    <dimen name="ProgressBar_Width">300dp</dimen>
+    <dimen name="ProgressBar_Height">20dp</dimen>
+    <dimen name="Button_width_and_height">60dp</dimen>
+    <dimen name="Button_margin">6dp</dimen>
+</resources>

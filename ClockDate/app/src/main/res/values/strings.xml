@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ClockDate</string>
+    <string name="time_units">UNIX seconds</string>
+    <integer name="start_year">1969</integer>
+</resources>
